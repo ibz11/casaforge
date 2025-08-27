@@ -1,0 +1,243 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-26 22:42:09.518702",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_details_tab",
+  "property_id",
+  "title",
+  "year_built",
+  "property_type",
+  "lot_size",
+  "price",
+  "location",
+  "bedrooms",
+  "bathrooms",
+  "listed_date",
+  "column_break_vtbz",
+  "description",
+  "hide_listing",
+  "featured",
+  "status",
+  "agent",
+  "amenities_tab",
+  "amenities_section",
+  "rooftop_access",
+  "concierge",
+  "private_elevator",
+  "security",
+  "parking",
+  "column_break_qtls",
+  "pool",
+  "gym",
+  "servant_quarter",
+  "community_centre",
+  "images_tab",
+  "property_images_section",
+  "property_images"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "General Details"
+  },
+  {
+   "fieldname": "property_id",
+   "fieldtype": "Data",
+   "label": "Property Id"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "year_built",
+   "fieldtype": "Int",
+   "label": "Year Built"
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Select",
+   "label": "Property Type",
+   "options": "House\nCondo\nTownhouse\nApartment\nCommercial"
+  },
+  {
+   "fieldname": "lot_size",
+   "fieldtype": "Data",
+   "label": "Lot Size"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "bedrooms",
+   "fieldtype": "Data",
+   "label": "Bedrooms"
+  },
+  {
+   "fieldname": "bathrooms",
+   "fieldtype": "Data",
+   "label": "Bathrooms"
+  },
+  {
+   "fieldname": "listed_date",
+   "fieldtype": "Datetime",
+   "label": "Listed Date"
+  },
+  {
+   "fieldname": "column_break_vtbz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "default": "0",
+   "fieldname": "hide_listing",
+   "fieldtype": "Check",
+   "label": "Hide Listing"
+  },
+  {
+   "default": "0",
+   "fieldname": "featured",
+   "fieldtype": "Check",
+   "label": "isFeatured"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "for-sale\nfor-rent"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Link",
+   "label": "Agent",
+   "options": "Agent"
+  },
+  {
+   "fieldname": "amenities_tab",
+   "fieldtype": "Tab Break",
+   "label": "Amenities"
+  },
+  {
+   "fieldname": "amenities_section",
+   "fieldtype": "Section Break",
+   "label": "Amenities "
+  },
+  {
+   "default": "0",
+   "fieldname": "rooftop_access",
+   "fieldtype": "Check",
+   "label": "Rooftop Access"
+  },
+  {
+   "default": "0",
+   "fieldname": "concierge",
+   "fieldtype": "Check",
+   "label": "Concierge"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_elevator",
+   "fieldtype": "Check",
+   "label": "Private Elevator"
+  },
+  {
+   "default": "0",
+   "fieldname": "security",
+   "fieldtype": "Check",
+   "label": "Security"
+  },
+  {
+   "default": "0",
+   "fieldname": "parking",
+   "fieldtype": "Check",
+   "label": "Parking"
+  },
+  {
+   "fieldname": "column_break_qtls",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pool",
+   "fieldtype": "Check",
+   "label": "Pool"
+  },
+  {
+   "default": "0",
+   "fieldname": "gym",
+   "fieldtype": "Check",
+   "label": "Gym"
+  },
+  {
+   "default": "0",
+   "fieldname": "servant_quarter",
+   "fieldtype": "Check",
+   "label": "Servant Quarter"
+  },
+  {
+   "default": "0",
+   "fieldname": "community_centre",
+   "fieldtype": "Check",
+   "label": "Community Centre"
+  },
+  {
+   "fieldname": "images_tab",
+   "fieldtype": "Tab Break",
+   "label": "Images"
+  },
+  {
+   "fieldname": "property_images_section",
+   "fieldtype": "Section Break",
+   "label": "Property Images"
+  },
+  {
+   "fieldname": "property_images",
+   "fieldtype": "Table",
+   "label": "Images",
+   "options": "Property Image"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-27 14:20:16.527417",
+ "modified_by": "admin@casaforge.co.ke",
+ "module": "Casaforge",
+ "name": "Property Listing",
+ "owner": "admin@casaforge.co.ke",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

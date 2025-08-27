@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-12 00:20:38.042310",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attached_image",
+  "column_break_coyb"
+ ],
+ "fields": [
+  {
+   "fieldname": "attached_image",
+   "fieldtype": "Attach Image",
+   "label": "Attached Image"
+  },
+  {
+   "fieldname": "column_break_coyb",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-27 15:16:18.759737",
+ "modified_by": "admin@casaforge.co.ke",
+ "module": "Casaforge",
+ "name": "Listing_Images",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

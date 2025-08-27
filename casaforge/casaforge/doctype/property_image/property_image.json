@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-26 23:25:08.687533",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "property_images_section",
+  "caption",
+  "attach_image",
+  "column_break_bmco"
+ ],
+ "fields": [
+  {
+   "fieldname": "property_images_section",
+   "fieldtype": "Section Break",
+   "label": "Property Images"
+  },
+  {
+   "fieldname": "caption",
+   "fieldtype": "Data",
+   "label": "Caption"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "column_break_bmco",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-27 13:25:00.408649",
+ "modified_by": "admin@casaforge.co.ke",
+ "module": "Casaforge",
+ "name": "Property Image",
+ "owner": "admin@casaforge.co.ke",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
